@@ -8,7 +8,7 @@ The idea of the project was to create a small weather app with basic DOM manipul
 
 In the app.js file, there are separators in order to easily look over the code and what every instance of it does.
 
-Included are the functions to display weather information, create weather information when inputing a new location, displaying and error message when inputin an invalid location.
+Included are the functions to display weather information, create weather information when inputing a new location, displaying and error message when inputing an invalid location.
 
 This project was instructed as very basic DOM manipulation exercise with API integration and introduction into asynchronous javascript. 
 
