@@ -1,6 +1,8 @@
 This is a basic weather app with simple design and look.
 
-It is using vanilla JS and presents simple DOM Manipulation along with an intro into asynchronous javascript. CSS is not responsive. API in use in OpenWeather API, with FREE plan.
+It is using vanilla JS and presents simple DOM Manipulation along with an intro into asynchronous javascript. CSS is not responsive. 
+
+API in use in OpenWeather API, with FREE plan.
 
 Can be freely reused for inspiration.
 
