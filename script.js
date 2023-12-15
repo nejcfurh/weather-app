@@ -21,7 +21,7 @@ const sunsetDisplay = document.querySelector('.sunset')
 // default values
 
 const defaultCity = "Maribor";
-const apiKey = '3e0c6b3e966c4642b3237fb5f250e294';
+const apiKey = 'your-own-api-Key';
 
 // Initial Location
 
