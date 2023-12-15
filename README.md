@@ -6,4 +6,5 @@ API in use is OpenWeather API, with FREE plan.
 
 Can be freely reused for inspiration.
 
-<img width="1440" alt="Preview_photo" src="https://github.com/NF-7/WeatherApp/assets/101887698/ca1b76a7-a43b-4d61-ae01-e1b46f3e723d">
+![Preview_photo](https://github.com/NF-7/WeatherApp/assets/101887698/ab746f7b-c921-420c-9caf-a27a44842a64)
+
