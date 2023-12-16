@@ -6,25 +6,29 @@
 }
 
 body {
+    background-color: rgb(212, 216, 220);
     background-image: url(background/Background_weather.jpg);
+    -webkit-transition: background-image 800ms ease-in-out;
+    -ms-transition: background-image 800ms ease-in-out;
+    transition: background-image 800ms ease-in-out;
     background-size: cover;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 100vh;
-    margin: auto;
+    height: 100%;
+    margin: 100px;
 }
 
 .main {
     backdrop-filter: blur(15px);
     background: rgba(255, 255, 255, 0.1);
     box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
-    margin-top: 10vh;
     border-radius: 20px;
     height: auto;
     padding: 20px;
-    width: 30vw;
+    width: fit-content;
+    min-width: 550px;
 }
 
 /* .main {
@@ -38,6 +42,33 @@ body {
 
 ::placeholder{
         color: rgb(212, 216, 220);
+}
+
+.geo-location {
+    background-color: rgb(91, 94, 97);
+    border: none;
+    border-radius: 50%;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    font-family: inherit;
+    font-size: 20px;
+    color: rgb(212, 216, 220);    
+    margin-right: 20px;
+    margin-left: 20px;
+    text-align: center;
+    cursor: pointer;
+    height: auto;
+    width: 50px;
+    height: 50px;
+    margin-top: 5px;
+}
+
+.icon-geo {
+    height: 20px;
+    padding-top: 5px;
+}
+
+.geo-location:hover {
+    background-color: rgba(91, 94, 97, 0.593)
 }
 
 input {
@@ -57,7 +88,7 @@ input {
 
 .input-add {
     background-color: rgb(91, 94, 97);
-    width: 6vw;
+    width: 30%;
 }
 
 .input-add:hover {
@@ -235,15 +266,36 @@ h4 {
 
 }
 
+.default-photo {
+    background-color: rgba(102, 102, 106, 0.842);
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    font-family: inherit;
+    font-size: 20px;
+    padding: 10px;
+    min-width: 60px;
+    color: rgb(212, 216, 220);    
+    margin-top: 50px;
+    text-align: center;
+    cursor:pointer;
+}
+
+.default-photo:hover {
+    background-color: rgba(91, 94, 97, 0.593)
+}
+
 .error {
-    margin: auto;
+    margin-top: 50px;
     max-width: auto;
     text-align: center;
-    font-size: 30px;
+    font-size: 40px;
     color: rgba(255, 255, 255, 0.836)
 }
 
 footer {
     color: rgb(255, 255, 255);
+    margin-top: 100px;
     margin-bottom: 100px;
+    font-size: 20px;
 }
