@@ -6,7 +6,7 @@ There are three API's in use. First one is OpenWeather API - with FREE plan for 
 
 Currently "geolocation" will work regardlessly if the users rejects the browser location prompt or not (the location will be less accurate via the IP location - it can also be false if the user is using VPN).
 
-Searching for location will dynamically change the background with regard to temperature (there are four different backgrounds for each of the seasons).
+Searching for location will dynamically change the background with regard to temperature (there are four different backgrounds for each of the seasons). You can get back to default photo at each search option, but it will be overwritten if the new location search is started (this might be removed in the future).
 
 Can be freely reused for inspiration.
 
