@@ -7,4 +7,3 @@ There are three API's in use. First one is OpenWeather API - with FREE plan for 
 Can be freely reused for inspiration.
 
 ![Preview_photo](https://github.com/NF-7/WeatherApp/assets/101887698/ab746f7b-c921-420c-9caf-a27a44842a64)
-
