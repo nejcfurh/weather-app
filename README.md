@@ -10,4 +10,4 @@ Searching for location will dynamically change the background with regard to tem
 
 Can be freely reused for inspiration.
 
-![PreviewWeatherApp](https://github.com/NF-7/WeatherApp/assets/101887698/335d829b-de24-4623-8567-e441314e1a98)
+![PreviewWeatherApp](https://github.com/NF-7/WeatherApp/assets/101887698/5ea8b46a-2456-4aed-811f-12ff6e3e034a)
