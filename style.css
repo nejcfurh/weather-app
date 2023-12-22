@@ -223,10 +223,10 @@ img {
 .div-4-additional-info {
     display: flex;
     text-align: center;
-    justify-content: space-evenly;
-    font-size: 15 px;
+    justify-content: space-around;
+    font-size: 15px;
     color: rgb(61, 57, 57);
-    margin: auto;
+    margin-left: 10px;
 }
 
 .div-4-info {
@@ -235,13 +235,13 @@ img {
     text-align: center;  
 }
 
-#humidity {
+/* #humidity {
     padding-left: 20px
 }
 
 #wind {
     padding-left: 30px
-}
+} */
 
 .info-span {
     padding-top: 10px;
@@ -352,7 +352,7 @@ footer {
 }
 
 .modal-body {
-    padding: 5px 10px 15px;
+    padding: 5px 10px 25px;
     text-align: center;
     font-size: 15px;
     white-space: pre-line;
