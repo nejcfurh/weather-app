@@ -25,6 +25,9 @@ const sunriseDisplay = document.querySelector('.sunrise')
 const sunsetDisplay = document.querySelector('.sunset')
 const defaultPhoto = document.querySelector('.default-photo')
 const footer = document.querySelector('footer');
+const openModal = document.querySelectorAll("[data-modal-target]")
+const closeModal = document.querySelectorAll("[data-close-button]")
+const overlay = document.getElementById("overlay")
 
 // default values
 
@@ -201,3 +204,38 @@ defaultPhoto.addEventListener('click', function (event) {
     body.style.backgroundImage = `url(${arrayOfBackgrounds[4]})`
     error.style.color = "white";
 })
+
+// Modal with Information
+
+openModal.forEach(button => {
+    button.addEventListener('click', () => {
+        const modal = document.querySelector(button.dataset.modalTarget);
+        openModalFunction(modal)
+    })
+})
+
+closeModal.forEach(button => {
+    button.addEventListener('click', () => {
+        const modal = button.closest(".modal")
+        closeModalFunction(modal)
+    })
+})
+
+overlay.addEventListener('click', () => {
+    const modals = document.querySelectorAll(".modal.active")
+    modals.forEach(modal => {
+        closeModalFunction(modal);
+    })
+})
+
+const openModalFunction = (modal) => {
+    if (modal == null) return;
+    modal.classList.add('active')
+    overlay.classList.add('active')
+}
+
+const closeModalFunction = (modal) => {
+    if (modal == null) return;
+    modal.classList.remove('active')
+    overlay.classList.remove('active')
+}

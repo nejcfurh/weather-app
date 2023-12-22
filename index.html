@@ -65,7 +65,36 @@
 <!-- <hr> -->
 </div>
 <p class="error"></p>
-<button class="default-photo">Default photo</button>
+<div class="buttons-below">
+    <button class="default-photo">Default photo</button>
+    <button class="default-photo" data-modal-target="#modal">Information</button>
+        <div class="modal" id="modal">
+        <div class="modal-header">
+        <div class="title">
+            Weather App Information
+        </div>
+        <button data-close-button class="close-button">&times;</button>
+        </div>
+        <div class="modal-body">
+            This is a basic weather app with simple design and look.
+
+            It is using vanilla JS and presents simple DOM Manipulation along with an intro into asynchronous javascript. CSS is not responsive.There are three API's in use. 
+            
+            First one is OpenWeather API - with FREE plan for retrieving weather data. 
+            The second one is IP Location API for retrieving location via IP if the user rejects the Browser GeoLocation prompt. 
+            The third one is the Reverse Geocoding API by BigDataCloud for retrieving city name from more accurate location.
+            
+            Currently "geolocation" will work regardlessly if the users rejects the browser location prompt or not (the location will be less accurate via the IP location - it can also be false if the user is using VPN).
+
+            Searching for location will dynamically change the background with regard to temperature (there are four different backgrounds for each of the seasons). You can get back to default photo at each search option, but it will be overwritten if the new location search is started.
+            
+            Can be freely reused for inspiration. 
+            
+            Created by Nejc Furh with inspiration from multiple sources on Udemy and YouTube.
+        </div>
+    </div>
+<div id="overlay"></div>
+</div>
 <footer>© Flaticon, Unsplash & Nejc Furh, 2023</footer>
 
 <script src="script.js" type="module"></script>
